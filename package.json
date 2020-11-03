@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-chapter-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajeetshah/nodejs-chapter-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajeetshah/nodejs-chapter-1/issues"
+  },
+  "homepage": "https://github.com/ajeetshah/nodejs-chapter-1#readme"
+}
