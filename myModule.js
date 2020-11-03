@@ -3,6 +3,5 @@ exports.myDateTime = function () {
 };
 
 exports.myText = function () {
-    return 'Hi';
-  };
-  
+  return "Hi";
+};
