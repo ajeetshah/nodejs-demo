@@ -1,4 +1,4 @@
-exports.now = () => Date();
+exports.now = () => (new Date()).toISOString();
 
 exports.hello = "hello world";
 

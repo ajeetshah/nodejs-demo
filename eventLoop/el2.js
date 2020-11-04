@@ -1,4 +1,4 @@
-const bar = () => console.log("bar");
+const bar = () => setTimeout(() => console.log("bar"), 1000);
 
 const baz = () => console.log("baz");
 
