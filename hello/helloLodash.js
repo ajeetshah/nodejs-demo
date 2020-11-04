@@ -5,7 +5,7 @@ const myUtils = require("./myUtils");
 const port = 8082;
 
 http
-  .createServer(function (req, res) {
+  .createServer((req, res) => {
     res.writeHead(200, { "Content-Type": "text/plain" });
     res.end(lodash.toLower("hElLo lODaSh!"));
   })
