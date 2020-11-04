@@ -1,8 +1,13 @@
-var http = require("http");
+const http = require("http");
+const myUtils = require("./myUtils");
+
+const port = 8081;
 
 http
   .createServer(function (req, res) {
     res.writeHead(200, { "Content-Type": "text/plain" });
     res.end("Hello World!");
   })
-  .listen(8080);
+  .listen(port);
+
+myUtils.printServerInfo(port);

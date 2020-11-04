@@ -1,9 +1,14 @@
-var http = require("http");
-var lodash = require("lodash");
+const http = require("http");
+const lodash = require("lodash");
+const myUtils = require("./myUtils");
+
+const port = 8082;
 
 http
   .createServer(function (req, res) {
     res.writeHead(200, { "Content-Type": "text/plain" });
-    res.end(lodash.toUpper("Hello Lodash!"));
+    res.end(lodash.toLower("hElLo lODaSh!"));
   })
-  .listen(8080);
+  .listen(port);
+
+myUtils.printServerInfo(port);
