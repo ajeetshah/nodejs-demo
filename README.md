@@ -52,7 +52,8 @@ Agenda:
 
 introduction
 install nodejs
-modules
+hello nodejs
+node.js module system (commonJS module system) : module wrapper function
 event loop
 npm, yarn
 creating a project
