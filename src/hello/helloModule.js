@@ -13,8 +13,8 @@ http
       res.writeHead(200, { "Content-Type": "text/plain" });
       res.end(myUtils.now());
     } else {
-      res.writeHead(404, { "Content-Type": "text/plain" });
-      res.end("Not Found!");
+      res.writeHead(404);
+      res.end('Not Found!');
     }
   })
   .listen(port, hostname, () => {
