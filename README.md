@@ -26,4 +26,24 @@
 
 - install nodejs
 - print hello nodejs
-- latest ECMAScript version 
+- latest ECMAScript version
+
+- window, document
+- global, setTimeout, require
+- module (private)
+- module (public)
+- module wrapper function
+
+- built in modules
+- http, fs, os, event, async, sync
+- build a web server, routes
+
+- event loop in javascript
+- javascript : single threaded, non blocking, asynchronous, concurrent language
+- javascript: call stack, event loop, callback queue, some other APIs and some other stuffs
+- V8: call stack and heap
+- V8: No (steTimeout, dom, xmlHTTPReques)
+- browser: V8 (or other) + Web APIs (dom, ajax, setTimeout)
+- nodejs: V8 + C/C++ APIs
+- call stack: 1 thread = 1 call stack = 1 thing at a time
+- 

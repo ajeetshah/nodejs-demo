@@ -1,3 +1,6 @@
+// async :
+// async : callback (cpu intensive blocking) queue : event loop
+
 const myUtils = require("../hello/myUtils");
 
 const bar = () => setTimeout(() => console.log("bar", myUtils.now()), 1000);

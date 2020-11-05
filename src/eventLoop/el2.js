@@ -1,3 +1,5 @@
+// async : callback queue : event loop
+
 const bar = () => setTimeout(() => console.log("bar"), 1000);
 
 const baz = () => console.log("baz");
