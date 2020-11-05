@@ -1,6 +1,7 @@
 const http = require("http");
 const myUtils = require("./myUtils");
 
+const hostname = "localhost";
 const port = 8081;
 
 http
@@ -8,6 +9,6 @@ http
     res.writeHead(200, { "Content-Type": "text/plain" });
     res.end("Hello World!");
   })
-  .listen(port);
-
-myUtils.printServerInfo(port);
+  .listen(port, hostname, () => {
+    myUtils.printServerInfo(port);
+  });

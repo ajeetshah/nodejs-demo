@@ -8,6 +8,7 @@
 - fewer lines, fewer files, fewer developers, more requests, faster response
 - javascript everywhere
 - clean, consistent, similar code on FE and BE
+- latest ECMAScript standards
 - many OS libraries
 - asp.net, ruby
 
@@ -46,4 +47,13 @@
 - browser: V8 (or other) + Web APIs (dom, ajax, setTimeout)
 - nodejs: V8 + C/C++ APIs
 - call stack: 1 thread = 1 call stack = 1 thing at a time
-- 
+
+Agenda:
+
+introduction
+install nodejs
+modules
+event loop
+npm, yarn
+creating a project
+frameworks
