@@ -1,4 +1,10 @@
+// IIFE
+// Private members
+
 (() => {
-  const foo = () => console.log("hello world");
+  const name = "John";
+  const foo = () => console.log(`hello ${name}`);
   foo();
 })();
+
+// console.log(name);
