@@ -1,3 +1,5 @@
+const bar = 11;
+
 const foo = () => {
   console.log("hi there");
 };
