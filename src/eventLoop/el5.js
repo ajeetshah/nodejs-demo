@@ -12,7 +12,7 @@ const foo = () => {
   bar();
   baz();
   setTimeout(() => {
-    for (let i = 0; i < 10000000000; i++) {}
+    for (let i = 0; i < 10000000000; i++);
     console.log("Finished cpu intensive work");
   }, 1001);
   console.log("foo finished");

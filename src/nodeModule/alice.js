@@ -6,6 +6,7 @@ const foo = () => {
 
 module.exports = {
   foo,
+  bar,
 };
 
 // foo();

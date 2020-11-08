@@ -7,11 +7,13 @@
     "lodash": "^4.17.20"
   },
   "devDependencies": {
+    "eslint": "^7.13.0",
     "jshint": "^2.12.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "jshint": "jshint src"
+    "jshint": "jshint src",
+    "eslint": "eslint src"
   },
   "repository": {
     "type": "git",
