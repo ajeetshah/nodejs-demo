@@ -6,8 +6,8 @@
 //   console.log(module);
 // });
 
-const name = "john";
-const foo = () => console.log(`hello ${name}`);
-foo();
+const name = 'john'
+const foo = () => console.log(`hello ${name}`)
+foo()
 
-console.log(module);
+console.log(module)

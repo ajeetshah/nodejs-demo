@@ -1,3 +1,3 @@
-const alice = require("./alice");
+const alice = require('./alice')
 
-alice.foo();
+alice.foo()

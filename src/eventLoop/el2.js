@@ -1,14 +1,14 @@
 // async : callback queue : event loop
 
-const bar = () => setTimeout(() => console.log("bar"), 1000);
+const bar = () => setTimeout(() => console.log('bar'), 1000)
 
-const baz = () => console.log("baz");
+const baz = () => console.log('baz')
 
 const foo = () => {
-  console.log("foo started");
-  bar();
-  baz();
-  console.log("foo finished");
-};
+  console.log('foo started')
+  bar()
+  baz()
+  console.log('foo finished')
+}
 
-foo();
+foo()

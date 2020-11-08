@@ -1,3 +1,3 @@
-const foo = () => console.log("hello world");
+const foo = () => console.log('hello world')
 
-foo();
+foo()

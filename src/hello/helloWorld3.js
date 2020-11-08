@@ -1,16 +1,16 @@
 // IIFE
 // Private members
 
-(() => {
-  const name = "John";
-  const foo = () => console.log(`hello ${name}`);
-  foo();
-})();
-
-(() => {
-  const name = "John";
-  const foo = () => console.log(`hello ${name}`);
-  foo();
-})();
+// eslint-disable-next-line
+;(function () {
+  const name = 'John'
+  const foo = () => console.log(`hello ${name}`)
+  foo()
+})()
+;(function () {
+  const name = 'John'
+  const foo = () => console.log(`hello ${name}`)
+  foo()
+})()
 
 // console.log(name);
